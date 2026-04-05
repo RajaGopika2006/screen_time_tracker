@@ -1,0 +1,16 @@
+{
+  "name": "focusguard",
+  "private": true,
+  "version": "1.0.1",
+  "workspaces": [
+    "mobile",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "mobile:start": "npm --workspace mobile run start",
+    "mobile:android": "npm --workspace mobile run android",
+    "backend:dev": "npm --workspace backend run dev",
+    "backend:start": "npm --workspace backend run start"
+  }
+}
